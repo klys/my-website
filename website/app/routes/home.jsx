@@ -1,4 +1,3 @@
-import { Welcome } from "../welcome/welcome";
 import MainPage from "../home/home";
 
 export function meta() {

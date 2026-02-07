@@ -4,13 +4,10 @@ import React from 'react'
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useNavigate } from 'react-router'
 
 
-const navigation = [
-  { name: 'About us', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Resume', href: '#' },
-]
+
 
 const metaData = {
     name:"KLYS.DEV"
@@ -18,6 +15,13 @@ const metaData = {
 
 export default function MainPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const navigate = useNavigate()
+
+  const navigation = [
+  { name: 'About us', href: () => {} },
+  { name: 'Projects', href: () => navigate("/projects") },
+  { name: 'Resume', href: () => {} },
+]
 
   return (
     <div className="bg-gray-900">
@@ -41,7 +45,7 @@ export default function MainPage() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
+              <a key={item.name} onClick={item.href} href = "#" className="text-sm/6 font-semibold text-white">
                 {item.name}
               </a>
             ))}
@@ -75,7 +79,8 @@ export default function MainPage() {
                   {navigation.map((item) => (
                     <a
                       key={item.name}
-                      href={item.href}
+                      onClick={item.href}
+                      href='#'
                       className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5"
                     >
                       {item.name}
