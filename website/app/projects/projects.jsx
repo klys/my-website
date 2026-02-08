@@ -72,12 +72,17 @@ export default function Projects() {
                 <time dateTime={item.datetime} className="text-gray-400">
                   {item.date}
                 </time>
-                <a
-                  href={item.category.href}
-                  className="relative z-10 rounded-full bg-gray-800/60 px-3 py-1.5 font-medium text-gray-300 hover:bg-gray-800"
-                >
-                  {item.category.title}
-                </a>
+                {item.categories.map((cat) => {
+                    return(
+                        <a
+                            href={cat.href}
+                            className="relative z-10 rounded-full bg-gray-800/60 px-3 py-1.5 font-medium text-gray-300 hover:bg-gray-800"
+                        >
+                        {cat.title}
+                        </a>
+                    )
+                })}
+                
               </div>
               <div className="group relative grow">
                 <h3 className="mt-3 text-lg/6 font-semibold text-white group-hover:text-gray-300">
@@ -89,7 +94,7 @@ export default function Projects() {
                 <p className="mt-5 line-clamp-3 text-sm/6 text-gray-400">{item.description}</p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4 justify-self-end">
-                <img alt="" src={item.author.imageUrl} className="size-10 rounded-full bg-gray-800" />
+                <img alt="" src={item.author.imageUrl} className="size-10 rounded-full bg-sky-800" />
                 <div className="text-sm/6">
                   <p className="font-semibold text-white">
                     <a href={item.author.href}>

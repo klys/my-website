@@ -7,10 +7,12 @@
     "description": "Cross platform MOBA game made initially on Game Maker Studio later ported to Unity, the game behold a universe of endless aliens races that fight for fun.",
     "date": "Mar 16, 2020",
     "datetime": "2020-03-16",
-    "category": {
-      "title": "Game Engineering",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Game",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "Klys.Dev",
       "role": "Enterpreneuship",
@@ -21,15 +23,25 @@
   {
     "id": 2,
     "title": "Logistic Receiving App",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image":"/projects/receivingapp.png",
     "href": "#",
-    "description": "Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.",
+    "description": "App to key-in all packages entering the facility, assisting on keep track of all packages and their respective destination",
     "date": "Mar 10, 2020",
     "datetime": "2020-03-10",
-    "category": {
-      "title": "Logistic Engineering",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Logistic",
+            "href": "#"
+        },
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Enterprise",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "BestBuy",
       "role": "Indivual Contributor & Tech Lead",
@@ -40,15 +52,25 @@
   {
     "id": 3,
     "title": "Rally Point App",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image":"/projects/rallypointapp.png",
     "href": "#",
-    "description": "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.",
+    "description": "Mobile App to count people on safety evacuation situations among different rally points, helping find missing people.",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Logistic Engineering",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Logistic",
+            "href": "#"
+        },
+        {
+            "title": "Mobile",
+            "href": "#"
+        },
+        {
+            "title": "Safety",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "BestBuy",
       "role": "Indivual Contributor & Tech Lead",
@@ -59,15 +81,25 @@
   {
     "id": 4,
     "title": "Inventory Management App",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image":"/projects/voyager5.png",
     "href": "#",
-    "description": "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.",
+    "description": "Cross-platform (mobile, desktop and web app) to manage inventory within logistic and processes where the inventory is used.",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Business",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Warehouse",
+            "href": "#"
+        },
+        {
+            "title": "Logistic",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "BestBuy",
       "role": "Indivual Contributor & Tech Lead",
@@ -77,16 +109,22 @@
   },
   {
     "id": 5,
-    "title": "Support Tickets App",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "title": "Support Ticket App",
+    "image":"/projects/supportapp.png",
     "href": "#",
-    "description": "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.",
+    "description": "Web app to manage emerging issues on a production facility, keeping track of ongoing issues and their turn around time",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Business",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Support",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "BestBuy",
       "role": "Indivual Contributor & Tech Lead",
@@ -99,13 +137,19 @@
     "title": "KPI Dashboard",
     "image":"/projects/pegaboard.png",
     "href": "#",
-    "description": "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit cillum quis magna dolore.",
+    "description": "Hourly KPI collector and display on a nice and tidy responsive board",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Business",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Management",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "Pegatron Corp",
       "role": "Individual Contributor & Tech Lead",
@@ -116,15 +160,21 @@
   {
     "id": 7,
     "title": "PegaChat",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image":"/projects/pegachat.png",
     "href": "#",
     "description": "Social Communication App with online conference capability for an internal network, serving around 300 employees",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Business",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Social",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "Pegatron Corp",
       "role": "Individual Contributor & Tech Lead",
@@ -140,10 +190,16 @@
     "description": "Bot to automatically request parts for ASUS MFG repair parts",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Business",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Automation",
+            "href": "#"
+        }
+    ],
     "author": {
       "name": "Pegatron Corp",
       "role": "Individual Contributor & Tech Lead",
@@ -153,21 +209,202 @@
   },
   {
     "id": 10,
-    "title": "PegaChat",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "title": "Printer API",
+    "image":"/projects/printerapi.png",
     "href": "#",
-    "description": "Social Communication App with online conference capability for an internal network, serving around 300 employees",
+    "description": "Printer service/daemon to allow printing in a safe way from a system to a user computer with a configured printer",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
-    "category": {
-      "title": "Business",
-      "href": "#"
-    },
+    "categories": [
+        {
+            "title": "Utility",
+            "href": "#"
+        },
+        {
+            "title": "Software",
+            "href": "#"
+        }
+    ],
     "author": {
-      "name": "Tom Cook",
-      "role": "Director of Product",
+      "name": "Pegatron Corp",
+      "role": "Individual Contributor & Tech Lead",
       "href": "#",
-      "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      "imageUrl": "/logos/pegatron.png"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Pixelfus",
+    "image":"/projects/pixelfus.png",
+    "href": "#",
+    "description": "Dofus fan game with pixel art style in a platform online game",
+    "date": "Feb 12, 2020",
+    "datetime": "2020-02-12",
+    "categories": [
+        {
+            "title": "Game",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Klys.Dev",
+      "role": "CEO",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Touch Color",
+    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Game of touching the right color to gain bitcoins (satoshis) integrated with the classic FaucetBox blockhain platform",
+    "date": "Feb 12, 2020",
+    "datetime": "2020-02-12",
+    "categories": [
+        {
+            "title": "Game",
+            "href": "#"
+        },
+        {
+            "title": "Blockchain",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Klys.Dev",
+      "role": "CEO",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Republic Battle",
+    "image":"/projects/republicbattle.png",
+    "href": "#",
+    "description": "Strategy Turn Base game of the famous venezuelan figure Simon Bolivar that counts his story and prominent battles against the injustice.",
+    "date": "Feb 12, 2020",
+    "datetime": "2020-02-12",
+    "categories": [
+        {
+            "title": "Game",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Klys.Dev",
+      "role": "CEO",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 13,
+    "title": "CareClinique App",
+    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Web app for medical providers and patients.",
+    "date": "Feb 12, 2020",
+    "datetime": "2020-02-12",
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Startup",
+            "href": "#"
+        },
+        {
+            "title": "Health",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Quo.Agency",
+      "role": "Individual Contributor & Tech Lead",
+      "href": "#",
+      "imageUrl": "/logos/quoagency.jpeg"
+    }
+  },
+  {
+    "id": 14,
+    "title": "HipHop Music Player",
+    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Website for a niche music target.",
+    "date": "Feb 12, 2020",
+    "datetime": "2020-02-12",
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Startup",
+            "href": "#"
+        },
+        {
+            "title": "Music",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Quo.Agency",
+      "role": "Individual Contributor & Tech Lead",
+      "href": "#",
+      "imageUrl": "/logos/quoagency.jpeg"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Email Editor",
+    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Web App to create emails with email HTML standards",
+    "date": "Feb 12, 2020",
+    "datetime": "2020-02-12",
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Marketing",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Quo.Agency",
+      "role": "Individual Contributor & Tech Lead",
+      "href": "#",
+      "imageUrl": "/logos/quoagency.jpeg"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Medical Record System",
+    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Web App to manage  medical records, track hospitalizations and other hospital information.",
+    "date": "2016",
+    "datetime": "2016-02-12",
+    "categories": [
+        {
+            "title": "Software",
+            "href": "#"
+        },
+        {
+            "title": "Health",
+            "href": "#"
+        }
+    ],
+    "author": {
+      "name": "Cardon Medical Center",
+      "role": "Individual Contributor & Tech Lead",
+      "href": "#",
+      "imageUrl": "/logos/cmc_icon.jpg"
     }
   }
 ]
