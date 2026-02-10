@@ -1,7 +1,5 @@
 import React from 'react'
 
-const projects = await fetch("/projects.json").then(r => r.json());
-
 /*const posts = [
   {
     id: 1,
@@ -54,6 +52,8 @@ const projects = await fetch("/projects.json").then(r => r.json());
     },
   },
 ]*/
+
+const projects = await fetch("/projects.json").then(r => r.json());
 
 export default function Projects() {
 

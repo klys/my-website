@@ -1,4 +1,4 @@
-import MainPage from "../home/home";
+import About from "../about/about";
 
 export function meta() {
   return [
@@ -7,6 +7,6 @@ export function meta() {
   ];
 }
 
-export default function Home() {
-  return <MainPage />
+export default function AboutPage() {
+  return <About />
 }

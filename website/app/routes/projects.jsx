@@ -2,8 +2,8 @@ import Projects from "../projects/projects";
 
 export function meta() {
   return [
-    { title: "Klys's Projects" },
-    { name: "description", content: "Junior Jimenez's projects!" },
+    { title: "Klys Projects" },
+    { name: "description", content: "Section of software engineering projects!" },
   ];
 }
 
