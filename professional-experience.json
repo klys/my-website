@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Develop enterprise-grade cross-platform systems for manufacturing, logistics, and safety operations, including React Native mobile apps, React KPI dashboards, Node.js/Express and Spring Boot APIs, inventory systems, automated testing, PostgreSQL models, CI/CD pipelines, containerized deployments, and compliance-aligned technical documentation.",
+    "date": "Mar 2024 - Present · 2 yrs",
+    "datetime": "2024-03",
+    "categories": [
+      { "title": "Spring Framework" },
+      { "title": "React.js" },
+      { "title": "Node.js" }
+    ],
+    "company": {
+      "name": "Best Buy",
+      "role": "Full-time · Louisville, Kentucky, United States · On-site"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Computer Repair Technician",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Delivered computer repair and technical support services as a full-time Geek Squad technician.",
+    "date": "Dec 2023 - Mar 2024 · 4 mos",
+    "datetime": "2023-12",
+    "categories": [
+      { "title": "Technical Support" },
+      { "title": "Hardware Repair" },
+      { "title": "Troubleshooting" }
+    ],
+    "company": {
+      "name": "Geeksquad",
+      "role": "Full-time"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Built Java automation tools for Oracle-to-Excel reporting, developed React KPI dashboards, implemented bots and internal communication apps, administered GitLab/Jenkins/BookStack/Tomcat infrastructure, managed Apache/Nginx with SSL and routing, executed migrations and security hardening, integrated LDAP, supported production lines, and mentored interns and engineers.",
+    "date": "Apr 2023 - Oct 2023 · 7 mos",
+    "datetime": "2023-04",
+    "categories": [
+      { "title": "Spring Framework" },
+      { "title": "React.js" },
+      { "title": "DevOps" }
+    ],
+    "company": {
+      "name": "Pegatron",
+      "role": "Full-time · United States · On-site"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Field Service IT Support",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Delivered enterprise IT support for Hyster-Yale on behalf of NTT-AVASO, resolving hardware, software, networking, server, and mobile device incidents across production environments with strong customer satisfaction.",
+    "date": "Sep 2021 - Apr 2023 · 1 yr 8 mos",
+    "datetime": "2021-09",
+    "categories": [
+      { "title": "React.js" },
+      { "title": "Node.js" },
+      { "title": "IT Support" }
+    ],
+    "company": {
+      "name": "AVASO Technology Solutions",
+      "role": "Part-time · Multiple locations"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Computer Repair Technician",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Provided hardware/software repair and IT troubleshooting services for local business and residential clients.",
+    "date": "Aug 2020 - Nov 2020 · 4 mos",
+    "datetime": "2020-08",
+    "categories": [
+      { "title": "Network Administration" },
+      { "title": "React.js" },
+      { "title": "Technical Repair" }
+    ],
+    "company": {
+      "name": "Computer Doctors of South Florida",
+      "role": "Full-time · Tampa, Florida, United States"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Software Engineer - Full Stack Developer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Developed and deployed full-stack applications and performed DevOps responsibilities including server setup, deployments, and environment configuration.",
+    "date": "Jul 2018 - Apr 2019 · 10 mos",
+    "datetime": "2018-07",
+    "categories": [
+      { "title": "Full-Stack Development" },
+      { "title": "React.js" },
+      { "title": "DevOps" }
+    ],
+    "company": {
+      "name": "Quo Agency Inc.",
+      "role": "Contract · New York City Metropolitan Area · Remote"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Built mobile, web, and backend applications while setting up and maintaining production servers and deployment pipelines.",
+    "date": "Feb 2018 - Jun 2018 · 5 mos",
+    "datetime": "2018-02",
+    "categories": [
+      { "title": "Kotlin" },
+      { "title": "Eclipse" },
+      { "title": "Backend Development" }
+    ],
+    "company": {
+      "name": "Caleta Musica",
+      "role": "Full-time · Lima, Peru"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Customer Technical Support",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Provided customer-facing technical support and hardware/software computer repair.",
+    "date": "Dec 2017 - Jan 2018 · 2 mos",
+    "datetime": "2017-12",
+    "categories": [
+      { "title": "Customer Support" },
+      { "title": "Node.js" },
+      { "title": "Computer Repair" }
+    ],
+    "company": {
+      "name": "Compunet",
+      "role": "Full-time · Lima, Peru"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Developed an administrative software application for business operations.",
+    "date": "May 2017 - Jun 2017 · 2 mos",
+    "datetime": "2017-05",
+    "categories": [
+      { "title": "JavaScript" },
+      { "title": "MySQL" },
+      { "title": "Administrative Systems" }
+    ],
+    "company": {
+      "name": "Holtek Computer N.V.",
+      "role": "Contract · Aruba"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Configured, installed, and maintained virtualization environments and supporting software infrastructure.",
+    "date": "Apr 2016 - Nov 2016 · 8 mos",
+    "datetime": "2016-04",
+    "categories": [
+      { "title": "Game Development" },
+      { "title": "Virtualization" },
+      { "title": "Systems Configuration" }
+    ],
+    "company": {
+      "name": "Texfly",
+      "role": "Contract · Greater Houston"
+    }
+  },
+  {
+    "id": 11,
+    "title": "IT Support / Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Served as Windows Server administrator, developed web applications, and repaired computers and printers for clinical operations.",
+    "date": "Nov 2015 - Apr 2016 · 6 mos",
+    "datetime": "2015-11",
+    "categories": [
+      { "title": "Firewalls" },
+      { "title": "Network Administration" },
+      { "title": "Windows Server" }
+    ],
+    "company": {
+      "name": "Centro Medico Cardon",
+      "role": "Full-time · Falcon State, Venezuela"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Web Master - Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Managed and maintained an eCommerce website as webmaster and software engineer.",
+    "date": "Apr 2015 - Oct 2015 · 7 mos",
+    "datetime": "2015-04",
+    "categories": [
+      { "title": "JavaScript" },
+      { "title": "E-Commerce" },
+      { "title": "Webmaster" }
+    ],
+    "company": {
+      "name": "Papagayo Corp",
+      "role": "Part-time · Falcon State, Venezuela"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Software Engineer",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Worked as a web application developer during internship, building database-backed business functionality.",
+    "date": "Apr 2014 - Aug 2014 · 5 mos",
+    "datetime": "2014-04",
+    "categories": [
+      { "title": "JavaScript" },
+      { "title": "MySQL" },
+      { "title": "Web App Development" }
+    ],
+    "company": {
+      "name": "VTELCA (Venezolana de Telecomunicaciones C.A)",
+      "role": "Internship · Falcon State, Venezuela"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Tech Support",
+    "href": "https://linkedin.com/in/klys-dev",
+    "description": "Provided administrative assistance and technical support for institutional operations.",
+    "date": "Jun 2007 - Nov 2007 · 6 mos",
+    "datetime": "2007-06",
+    "categories": [
+      { "title": "Microsoft Excel" },
+      { "title": "Microsoft Access" },
+      { "title": "Technical Support" }
+    ],
+    "company": {
+      "name": "INEA - Instituto Nacional de los Espacios Acuaticos",
+      "role": "Internship · Falcon State, Venezuela"
+    }
+  }
+]

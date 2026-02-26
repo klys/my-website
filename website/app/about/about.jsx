@@ -1,19 +1,18 @@
 
-import { useState } from 'react'
+import { Link } from 'react-router'
 
 const metaData = {
     name:"KLYS.DEV"
 }
 
 const links = [
-  { name: 'Professional Experience', href: '#' },
-  { name: 'Academic Credentials', href: '#' },
-  { name: 'Project Portfolio', href: '#' },
+  { name: 'Professional Experience', to: '/professional-experience' },
+  { name: 'Academic Credentials', to: '/academic-credentials' },
+  { name: 'Project Portfolio', to: '/projects' },
 ]
 const stats = [
   { name: 'Years on the Field', value: '10+' },
-  { name: 'Software Projects', value: '80+' },
-  { name: 'Hours per week', value: '40' },
+  { name: 'Software Projects', value: '150+' },
 ]
 
 export default function About() {
@@ -52,16 +51,16 @@ export default function About() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Junior Jimenez</h2>
           <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
-            I’m a software engineer with extensive experience building and maintaining <strong>enterprise-grade web, mobile, and backend systems</strong> across manufacturing, logistics, and operational environments. My background spans <strong>full-stack development, API design, database-driven systems, and cloud-native DevOps</strong>, with hands-on experience using technologies such as <strong>PHP, JavaScript/TypeScript, Java, React, React Native, Node.js, SQL databases, Docker, and AWS</strong>. I’ve worked on everything from modern cross-platform applications and KPI dashboards to backend services, automation tools, and CI/CD pipelines, always with a strong focus on **scalability, security, and reliability**. I’m comfortable operating in complex production environments, collaborating with cross-functional teams, and translating business and operational needs into practical, maintainable technical solutions.
+            I’m a software engineer with extensive experience building and maintaining <strong>enterprise-grade web, mobile, and backend systems</strong> across manufacturing, logistics, and operational environments. My background spans <strong>full-stack development, API design, database-driven systems, and cloud-native DevOps</strong>, with hands-on experience using technologies such as <strong>PHP, JavaScript/TypeScript, Java, React, React Native, Node.js, SQL databases, Docker, and AWS</strong>. I’ve worked on everything from modern cross-platform applications and KPI dashboards to backend services, automation tools, and CI/CD pipelines, always with a strong focus on <strong>scalability, security, and reliability</strong>. I’m comfortable operating in complex production environments, collaborating with cross-functional teams, and translating business and operational needs into practical, maintainable technical solutions.
 
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href}>
+              <Link key={link.name} to={link.to}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             ))}
           </div>
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">

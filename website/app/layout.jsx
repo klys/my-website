@@ -11,7 +11,7 @@ export default function Layout (props){
         name:"KLYS.DEV"
     }
     const navigation = [
-        { name: 'About me' , to: '/about'},
+        { name: 'About me' , to: '/'},
         { name: 'Projects', to: '/projects' },
         { name: 'Resume' },
     ]
