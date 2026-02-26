@@ -1,84 +1,55 @@
-# Welcome to React Router!
+# Website App (React + Vite)
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This folder contains the source code for the portfolio site.
 
-## Features
+## Stack
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- React 19
+- React Router 7 (`createHashRouter`)
+- Vite
+- Tailwind CSS
 
-## Getting Started
-
-### Installation
-
-Install the dependencies:
+## Scripts
 
 ```bash
 npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
 npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
 npm run build
+npm run preview
 ```
 
-## Deployment
+## Development Workflow
 
-### Docker Deployment
+1. Implement UI/routes/components in `app/`
+2. Update content in `public/*.json`
+3. Build locally with `npm run build`
+4. From repo root, run `../sync-gh-pages.sh` to publish build output to GitHub Pages root
 
-To build and run using Docker:
+## App Structure
 
-```bash
-docker build -t my-app .
+- `app/routes.jsx`: route registration
+- `app/layout.jsx`: top-level navigation/header
+- `app/about/`: about page
+- `app/projects/`: projects page and filters
+- `app/professional-experience/`: professional experience page
+- `app/academic-credentials/`: academic credentials page
+- `app/routes/`: route wrapper components (meta + page mounting)
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+## Data-Driven Content
 
-The containerized application can be deployed to any platform that supports Docker, including:
+Public JSON files are fetched at runtime by page components:
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+- `/projects.json`
+- `/professional-experience.json`
+- `/academic-credentials.json`
 
-### DIY Deployment
+Keep object shapes consistent with current components:
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+- Projects expect: `id`, `title`, `image`, `href`, `description`, `date`, `datetime`, `categories[]`, `author`
+- Experience expects: `id`, `title`, `href`, `description`, `date`, `datetime`, `categories[]`, `company`
+- Credentials expect: `id`, `title`, `description`, `date`, `datetime`, `categories[]`, `institution`
 
-Make sure to deploy the output of `npm run build`
+## Notes
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+- Resume navigation points to `/Junior_Jimenez_Resume.pdf`.
+- If UI behaves inconsistently when filtering lists, ensure item IDs are unique in JSON data.
