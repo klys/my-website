@@ -13,7 +13,7 @@ export default function Layout (props){
     const navigation = [
         { name: 'About me' , to: '/'},
         { name: 'Projects', to: '/projects' },
-        { name: 'Resume' },
+        { name: 'Resume', href: '/Junior_Jimenez_Resume.pdf' },
     ]
     return(
         <div className="min-h-screen bg-gray-900">
@@ -41,6 +41,10 @@ export default function Layout (props){
                         <Link key={item.name} to={item.to} className="text-sm/6 font-semibold text-white">
                             {item.name}
                         </Link>
+                        ) : item.href ? (
+                        <a key={item.name} href={item.href} target="_blank" rel="noreferrer" className="text-sm/6 font-semibold text-white">
+                            {item.name}
+                        </a>
                         ) : (
                         <a key={item.name} href="#" className="text-sm/6 font-semibold text-white">
                             {item.name}
@@ -112,6 +116,16 @@ export default function Layout (props){
                                 >
                                 {item.name}
                                 </Link>
+                            ) : item.href ? (
+                                <a
+                                key={item.name}
+                                href={item.href}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5"
+                                >
+                                {item.name}
+                                </a>
                             ) : (
                                 <a
                                 key={item.name}
