@@ -2,16 +2,16 @@
   {
     "id": 1,
     "title": "Nova",
-    "image":"/projects/nova.png",
+    "image": "/projects/nova.png",
     "href": "#",
     "description": "Cross platform MOBA game made initially on Game Maker Studio later ported to Unity, the game behold a universe of endless aliens races that fight for fun.",
     "date": "Mar 16, 2020",
     "datetime": "2020-03-16",
     "categories": [
-        {
-            "title": "Game",
-            "href": "#"
-        }
+      {
+        "title": "Game",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Klys.Dev",
@@ -23,24 +23,24 @@
   {
     "id": 2,
     "title": "Logistic Receiving App",
-    "image":"/projects/receivingapp.png",
+    "image": "/projects/receivingapp.png",
     "href": "#",
     "description": "App to key-in all packages entering the facility, assisting on keep track of all packages and their respective destination",
     "date": "Mar 10, 2020",
     "datetime": "2020-03-10",
     "categories": [
-        {
-            "title": "Logistic",
-            "href": "#"
-        },
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Enterprise",
-            "href": "#"
-        }
+      {
+        "title": "Logistic",
+        "href": "#"
+      },
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Enterprise",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "BestBuy",
@@ -52,24 +52,24 @@
   {
     "id": 3,
     "title": "Rally Point App",
-    "image":"/projects/rallypointapp.png",
+    "image": "/projects/rallypointapp.png",
     "href": "#",
     "description": "Mobile App to count people on safety evacuation situations among different rally points, helping find missing people.",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Logistic",
-            "href": "#"
-        },
-        {
-            "title": "Mobile",
-            "href": "#"
-        },
-        {
-            "title": "Safety",
-            "href": "#"
-        }
+      {
+        "title": "Logistic",
+        "href": "#"
+      },
+      {
+        "title": "Mobile",
+        "href": "#"
+      },
+      {
+        "title": "Safety",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "BestBuy",
@@ -81,24 +81,24 @@
   {
     "id": 4,
     "title": "Inventory Management App",
-    "image":"/projects/voyager5.png",
+    "image": "/projects/voyager5.png",
     "href": "#",
     "description": "Cross-platform (mobile, desktop and web app) to manage inventory within logistic and processes where the inventory is used.",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Warehouse",
-            "href": "#"
-        },
-        {
-            "title": "Logistic",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Warehouse",
+        "href": "#"
+      },
+      {
+        "title": "Logistic",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "BestBuy",
@@ -110,20 +110,20 @@
   {
     "id": 5,
     "title": "Support Ticket App",
-    "image":"/projects/supportapp.png",
+    "image": "/projects/supportapp.png",
     "href": "#",
     "description": "Web app to manage emerging issues on a production facility, keeping track of ongoing issues and their turn around time",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Support",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Support",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "BestBuy",
@@ -135,20 +135,20 @@
   {
     "id": 6,
     "title": "KPI Dashboard",
-    "image":"/projects/pegaboard.png",
+    "image": "/projects/pegaboard.png",
     "href": "#",
     "description": "Hourly KPI collector and display on a nice and tidy responsive board",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Management",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Management",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Pegatron Corp",
@@ -160,20 +160,20 @@
   {
     "id": 7,
     "title": "PegaChat",
-    "image":"/projects/pegachat.png",
+    "image": "/projects/pegachat.png",
     "href": "#",
     "description": "Social Communication App with online conference capability for an internal network, serving around 300 employees",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Social",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Social",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Pegatron Corp",
@@ -185,20 +185,20 @@
   {
     "id": 8,
     "title": "ASUS PC Parts Requester Bot App",
-    "image":"/projects/asusbotapp.png",
+    "image": "/projects/asusbotapp.png",
     "href": "#",
     "description": "Bot to automatically request parts for ASUS MFG repair parts",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Automation",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Automation",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Pegatron Corp",
@@ -210,20 +210,20 @@
   {
     "id": 10,
     "title": "Printer API",
-    "image":"/projects/printerapi.png",
+    "image": "/projects/printerapi.png",
     "href": "#",
     "description": "Printer service/daemon to allow printing in a safe way from a system to a user computer with a configured printer",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Utility",
-            "href": "#"
-        },
-        {
-            "title": "Software",
-            "href": "#"
-        }
+      {
+        "title": "Utility",
+        "href": "#"
+      },
+      {
+        "title": "Software",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Pegatron Corp",
@@ -235,16 +235,16 @@
   {
     "id": 10,
     "title": "Pixelfus",
-    "image":"/projects/pixelfus.png",
+    "image": "/projects/pixelfus.png",
     "href": "#",
     "description": "Dofus fan game with pixel art style in a platform online game",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Game",
-            "href": "#"
-        }
+      {
+        "title": "Game",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Klys.Dev",
@@ -256,24 +256,28 @@
   {
     "id": 11,
     "title": "Touch Color",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
     "href": "#",
-    "description": "Game of touching the right color to gain bitcoins (satoshis) integrated with the classic FaucetBox blockhain platform",
-    "date": "Feb 12, 2020",
-    "datetime": "2020-02-12",
+    "description": "Android game for earning free Bitcoin through AdMob integration (Touch Color, by Free BitCoins Games).",
+    "date": "Jul 2016 - Present",
+    "datetime": "2016-07-01",
     "categories": [
-        {
-            "title": "Game",
-            "href": "#"
-        },
-        {
-            "title": "Blockchain",
-            "href": "#"
-        }
+      {
+        "title": "Game",
+        "href": "#"
+      },
+      {
+        "title": "AdMob",
+        "href": "#"
+      },
+      {
+        "title": "API",
+        "href": "#"
+      }
     ],
     "author": {
-      "name": "Klys.Dev",
-      "role": "CEO",
+      "name": "Texfly",
+      "role": "Contract",
       "href": "#",
       "imageUrl": "/klys.dev-icon.png"
     }
@@ -281,20 +285,28 @@
   {
     "id": 12,
     "title": "Republic Battle",
-    "image":"/projects/republicbattle.png",
+    "image": "/projects/republicbattle.png",
     "href": "#",
-    "description": "Strategy Turn Base game of the famous venezuelan figure Simon Bolivar that counts his story and prominent battles against the injustice.",
-    "date": "Feb 12, 2020",
-    "datetime": "2020-02-12",
+    "description": "Multiplatform HTML5 game about Venezuelan history for kids.",
+    "date": "Mar 2013 - Present",
+    "datetime": "2013-03-01",
     "categories": [
-        {
-            "title": "Game",
-            "href": "#"
-        }
+      {
+        "title": "Game",
+        "href": "#"
+      },
+      {
+        "title": "HTML5",
+        "href": "#"
+      },
+      {
+        "title": "Education",
+        "href": "#"
+      }
     ],
     "author": {
-      "name": "Klys.Dev",
-      "role": "CEO",
+      "name": "Universidad Nacional Experimental de las Fuerzas Armadas",
+      "role": "Associated Project",
       "href": "#",
       "imageUrl": "/klys.dev-icon.png"
     }
@@ -302,28 +314,28 @@
   {
     "id": 13,
     "title": "CareClinique App",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
-    "href": "#",
-    "description": "Web app for medical providers and patients.",
-    "date": "Feb 12, 2020",
-    "datetime": "2020-02-12",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "http://app.careclinique.com",
+    "description": "CareClinique platform for clinic, hospital, and doctor assistance.",
+    "date": "Jan 2019 - Apr 2019",
+    "datetime": "2019-01-01",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Startup",
-            "href": "#"
-        },
-        {
-            "title": "Health",
-            "href": "#"
-        }
+      {
+        "title": "JavaScript",
+        "href": "#"
+      },
+      {
+        "title": "Laravel",
+        "href": "#"
+      },
+      {
+        "title": "Health",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Quo.Agency",
-      "role": "Individual Contributor",
+      "role": "Associated with Quo Agency Inc.",
       "href": "#",
       "imageUrl": "/logos/quoagency.jpeg"
     }
@@ -331,24 +343,24 @@
   {
     "id": 14,
     "title": "HipHop Music Player",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
     "href": "#",
     "description": "Website for a niche music target.",
     "date": "Feb 12, 2020",
     "datetime": "2020-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Startup",
-            "href": "#"
-        },
-        {
-            "title": "Music",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Startup",
+        "href": "#"
+      },
+      {
+        "title": "Music",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Quo.Agency",
@@ -359,25 +371,29 @@
   },
   {
     "id": 15,
-    "title": "Email Editor",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
-    "href": "#",
-    "description": "Web App to create emails with email HTML standards",
-    "date": "Feb 12, 2020",
-    "datetime": "2020-02-12",
+    "title": "MonthlyCup Email Editor",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "http://email.quo.agency",
+    "description": "MonthlyCup Email Editor for building standards-compliant marketing emails.",
+    "date": "Nov 2018 - Dec 2018",
+    "datetime": "2018-11-01",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Marketing",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Marketing",
+        "href": "#"
+      },
+      {
+        "title": "Email",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Quo.Agency",
-      "role": "Individual Contributor & Tech Lead",
+      "role": "Associated with Quo Agency Inc.",
       "href": "#",
       "imageUrl": "/logos/quoagency.jpeg"
     }
@@ -385,26 +401,400 @@
   {
     "id": 16,
     "title": "Medical Record System",
-    "image":"https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
     "href": "#",
     "description": "Web App to manage  medical records, track hospitalizations and other hospital information.",
     "date": "2016",
     "datetime": "2016-02-12",
     "categories": [
-        {
-            "title": "Software",
-            "href": "#"
-        },
-        {
-            "title": "Health",
-            "href": "#"
-        }
+      {
+        "title": "Software",
+        "href": "#"
+      },
+      {
+        "title": "Health",
+        "href": "#"
+      }
     ],
     "author": {
       "name": "Cardon Medical Center",
       "role": "Individual Contributor & Tech Lead",
       "href": "#",
       "imageUrl": "/logos/cmc_icon.jpg"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Soundcloud/Prismic API Webapp",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Web application integrating SoundCloud with Prismic API.",
+    "date": "Oct 2018 - Present",
+    "datetime": "2018-10-01",
+    "categories": [
+      {
+        "title": "Node.js",
+        "href": "#"
+      },
+      {
+        "title": "Webapp",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Quo.Agency",
+      "role": "Associated with Quo Agency Inc.",
+      "href": "#",
+      "imageUrl": "/logos/quoagency.jpeg"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Radios Webapp Manager (Soundmanager API)",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "JavaScript Soundmanager2 and PHP based web app manager for radio content.",
+    "date": "Jun 2018 - Present",
+    "datetime": "2018-06-01",
+    "categories": [
+      {
+        "title": "Node.js",
+        "href": "#"
+      },
+      {
+        "title": "JavaScript",
+        "href": "#"
+      },
+      {
+        "title": "PHP",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Caleta Musica",
+      "role": "Associated with Caleta Musica",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 19,
+    "title": "Daniel Peredo App (Google Play)",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Development of Daniel Peredo mobile app published for Google Play.",
+    "date": "May 2018 - Present",
+    "datetime": "2018-05-01",
+    "categories": [
+      {
+        "title": "Android",
+        "href": "#"
+      },
+      {
+        "title": "Mobile",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Caleta Musica",
+      "role": "Associated with Caleta Musica",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 20,
+    "title": "Network Installation Manager Web App",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Web application to manage network installations and operational workflows.",
+    "date": "May 2017 - Present",
+    "datetime": "2017-05-01",
+    "categories": [
+      {
+        "title": "Node.js",
+        "href": "#"
+      },
+      {
+        "title": "Webapp",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Holtek Computer N.V.",
+      "role": "Associated with Holtek Computer N.V.",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Restaurant Catering Website",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "HTML website project for restaurant catering business.",
+    "date": "Sep 2016 - Present",
+    "datetime": "2016-09-01",
+    "categories": [
+      {
+        "title": "HTML",
+        "href": "#"
+      },
+      {
+        "title": "Node.js",
+        "href": "#"
+      },
+      {
+        "title": "Website",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Klys.Dev",
+      "role": "Individual Contributor",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Mantra Restaurant Android App",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Android application for Mantra Restaurant using Game Maker language and API integrations.",
+    "date": "Aug 2016 - Present",
+    "datetime": "2016-08-01",
+    "categories": [
+      {
+        "title": "Game Maker",
+        "href": "#"
+      },
+      {
+        "title": "Android",
+        "href": "#"
+      },
+      {
+        "title": "API",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Klys.Dev",
+      "role": "Individual Contributor",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Machine Virtualization Project",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Configured and maintained virtualization environment on HP ProLiant server with system installations and VM administration.",
+    "date": "May 2016 - Present",
+    "datetime": "2016-05-01",
+    "categories": [
+      {
+        "title": "Virtualization",
+        "href": "#"
+      },
+      {
+        "title": "Infrastructure",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Texfly",
+      "role": "Associated with Texfly",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 24,
+    "title": "Game about Biblical History",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Game development project about biblical stories (Gedeonario).",
+    "date": "Feb 2015 - Present",
+    "datetime": "2015-02-01",
+    "categories": [
+      {
+        "title": "Game",
+        "href": "#"
+      },
+      {
+        "title": "History",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Klys.Dev",
+      "role": "Individual Contributor",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 25,
+    "title": "Public Service System Migration (Fox Pro to PHP)",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Migration of public service system from Fox Pro to PHP for Carirubana Government.",
+    "date": "Sep 2014 - Present",
+    "datetime": "2014-09-01",
+    "categories": [
+      {
+        "title": "PHP",
+        "href": "#"
+      },
+      {
+        "title": "Migration",
+        "href": "#"
+      },
+      {
+        "title": "Government",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Carirubana Government",
+      "role": "Individual Contributor",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 26,
+    "title": "Virtual Library System",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Visual Basic system for managing book records for U.E Nazaret Fe y Alegria library.",
+    "date": "Jul 2007 - Present",
+    "datetime": "2007-07-01",
+    "categories": [
+      {
+        "title": "Visual Basic",
+        "href": "#"
+      },
+      {
+        "title": "Library System",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "U.E Nazaret Fe y Alegria",
+      "role": "Individual Contributor",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 27,
+    "title": "Caleta Musica Website",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Website design and implementation project for Caleta Musica.",
+    "date": "Jul 2018 - Aug 2018",
+    "datetime": "2018-07-01",
+    "categories": [
+      {
+        "title": "Website",
+        "href": "#"
+      },
+      {
+        "title": "Design",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Caleta Musica",
+      "role": "Associated with Caleta Musica",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 28,
+    "title": "Prismic/PHP/JavaScript Website",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Creation of a website using Prismic, PHP, and JavaScript.",
+    "date": "Jul 2018 - Aug 2018",
+    "datetime": "2018-07-01",
+    "categories": [
+      {
+        "title": "Prismic",
+        "href": "#"
+      },
+      {
+        "title": "PHP",
+        "href": "#"
+      },
+      {
+        "title": "JavaScript",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Quo.Agency",
+      "role": "Associated with Quo Agency Inc.",
+      "href": "#",
+      "imageUrl": "/logos/quoagency.jpeg"
+    }
+  },
+  {
+    "id": 29,
+    "title": "7 Custom Bitcoin Faucet Websites",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Built seven custom Bitcoin faucet websites including globalfreebitcoin.com and related domains.",
+    "date": "Jan 2016 - Jun 2016",
+    "datetime": "2016-01-01",
+    "categories": [
+      {
+        "title": "Blockchain",
+        "href": "#"
+      },
+      {
+        "title": "JavaScript",
+        "href": "#"
+      },
+      {
+        "title": "Node.js",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "Texfly",
+      "role": "Associated with Texfly",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
+    }
+  },
+  {
+    "id": 30,
+    "title": "VTELCA Security Equipment Request System",
+    "image": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+    "href": "#",
+    "description": "Request system between SHA and GOT departments to request security equipment for VTELCA.",
+    "date": "May 2014 - Aug 2014",
+    "datetime": "2014-05-01",
+    "categories": [
+      {
+        "title": "Internal Tools",
+        "href": "#"
+      },
+      {
+        "title": "Workflow",
+        "href": "#"
+      }
+    ],
+    "author": {
+      "name": "VTELCA (Venezolana de Telecomunicaciones C.A)",
+      "role": "Associated with VTELCA",
+      "href": "#",
+      "imageUrl": "/klys.dev-icon.png"
     }
   }
 ]

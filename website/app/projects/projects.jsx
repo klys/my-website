@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo, useState } from 'react'
 
 /*const posts = [
   {
@@ -56,6 +56,51 @@ import React from 'react'
 const projects = await fetch("/projects.json").then(r => r.json());
 
 export default function Projects() {
+  const [selectedDate, setSelectedDate] = useState("all");
+  const [selectedCompany, setSelectedCompany] = useState("all");
+  const [selectedType, setSelectedType] = useState("all");
+
+  const getDateLabel = (item) => {
+    const datetimeYear = String(item?.datetime || "").slice(0, 4);
+    if (/^\d{4}$/.test(datetimeYear)) return datetimeYear;
+    const dateMatch = String(item?.date || "").match(/\b(19|20)\d{2}\b/);
+    return dateMatch ? dateMatch[0] : "Other";
+  };
+
+  const dateOptions = useMemo(() => {
+    const uniqueDates = [...new Set(projects.map(getDateLabel))];
+    return uniqueDates.sort((a, b) => {
+      const isNumA = /^\d{4}$/.test(a);
+      const isNumB = /^\d{4}$/.test(b);
+      if (isNumA && isNumB) return Number(b) - Number(a);
+      if (isNumA) return -1;
+      if (isNumB) return 1;
+      return a.localeCompare(b);
+    });
+  }, []);
+
+  const companyOptions = useMemo(() => {
+    return [...new Set(projects.map((item) => item?.author?.name || "Unknown"))].sort();
+  }, []);
+
+  const typeOptions = useMemo(() => {
+    const allTypes = projects.flatMap((item) => (item.categories || []).map((cat) => cat.title));
+    return [...new Set(allTypes)].sort();
+  }, []);
+
+  const filteredProjects = useMemo(() => {
+    return projects.filter((item) => {
+      const itemDate = getDateLabel(item);
+      const itemCompany = item?.author?.name || "Unknown";
+      const itemTypes = (item.categories || []).map((cat) => cat.title);
+
+      const matchesDate = selectedDate === "all" || itemDate === selectedDate;
+      const matchesCompany = selectedCompany === "all" || itemCompany === selectedCompany;
+      const matchesType = selectedType === "all" || itemTypes.includes(selectedType);
+
+      return matchesDate && matchesCompany && matchesType;
+    });
+  }, [selectedDate, selectedCompany, selectedType]);
 
   return (
     <div className="bg-gray-900 py-24 sm:py-32">
@@ -64,9 +109,72 @@ export default function Projects() {
           <h2 className="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Projects</h2>
           <p className="mt-2 text-lg/8 text-gray-300">Project portfolio.</p>
         </div>
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <label className="flex flex-col gap-2">
+            <span className="text-sm font-medium text-gray-200">Date</span>
+            <select
+              value={selectedDate}
+              onChange={(e) => setSelectedDate(e.target.value)}
+              className="rounded-md border border-gray-700 bg-gray-800 px-3 py-2 text-sm text-white"
+            >
+              <option value="all">All dates</option>
+              {dateOptions.map((date) => (
+                <option key={date} value={date}>
+                  {date}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm font-medium text-gray-200">Company</span>
+            <select
+              value={selectedCompany}
+              onChange={(e) => setSelectedCompany(e.target.value)}
+              className="rounded-md border border-gray-700 bg-gray-800 px-3 py-2 text-sm text-white"
+            >
+              <option value="all">All companies</option>
+              {companyOptions.map((company) => (
+                <option key={company} value={company}>
+                  {company}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="flex flex-col gap-2">
+            <span className="text-sm font-medium text-gray-200">Project type</span>
+            <select
+              value={selectedType}
+              onChange={(e) => setSelectedType(e.target.value)}
+              className="rounded-md border border-gray-700 bg-gray-800 px-3 py-2 text-sm text-white"
+            >
+              <option value="all">All types</option>
+              {typeOptions.map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </label>
+          <div className="flex items-end">
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedDate("all");
+                setSelectedCompany("all");
+                setSelectedType("all");
+              }}
+              className="w-full rounded-md border border-gray-700 bg-gray-800 px-3 py-2 text-sm font-medium text-white hover:bg-gray-700"
+            >
+              Clear filters
+            </button>
+          </div>
+        </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-700 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {projects.map((item) => (
-            <article key={item.id} className="flex max-w-xl flex-col items-start justify-between">
+          {filteredProjects.map((item, index) => (
+            <article
+              key={`${item.id}-${item.title}-${item.datetime || index}`}
+              className="flex max-w-xl flex-col items-start justify-between"
+            >
                 <img src={item.image} />
               <div className="flex items-center gap-x-4 text-xs">
                 <time dateTime={item.datetime} className="text-gray-400">
@@ -75,6 +183,7 @@ export default function Projects() {
                 {item.categories.map((cat) => {
                     return(
                         <a
+                            key={`${item.title}-${cat.title}`}
                             href={cat.href}
                             className="relative z-10 rounded-full bg-gray-800/60 px-3 py-1.5 font-medium text-gray-300 hover:bg-gray-800"
                         >
@@ -108,6 +217,9 @@ export default function Projects() {
             </article>
           ))}
         </div>
+        {filteredProjects.length === 0 && (
+          <p className="mt-8 text-sm text-gray-400">No projects match the selected filters.</p>
+        )}
       </div>
     </div>
   )
